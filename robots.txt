@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://friction.kineticgain.com/sitemap.xml

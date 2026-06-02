@@ -1,0 +1,50 @@
+[
+  {
+    "lane": "AI governance and agent controls",
+    "action": "SIMPLIFY",
+    "compositeRemediationScore": 54.6,
+    "owner": "Chief AI Officer",
+    "recoverableMarginMillions": 17,
+    "nextMove": "Reduce approval depth for recurring policy patterns and assign one final owner per packet."
+  },
+  {
+    "lane": "Procurement and trust operations",
+    "action": "STANDARDIZE",
+    "compositeRemediationScore": 48.6,
+    "owner": "Chief Commercial Officer",
+    "recoverableMarginMillions": 14,
+    "nextMove": "Define one canonical answer-and-proof bundle so commercial teams stop rebuilding the same trust material."
+  },
+  {
+    "lane": "Biotech and diagnostics operations",
+    "action": "AUTOMATE",
+    "compositeRemediationScore": 61.2,
+    "owner": "Quality systems lead",
+    "recoverableMarginMillions": 12,
+    "nextMove": "Create a thinner QA-to-release closure path with one owner and one summarized evidence packet."
+  },
+  {
+    "lane": "FinTech and treasury controls",
+    "action": "CONTAIN",
+    "compositeRemediationScore": 60,
+    "owner": "Chief Revenue Officer",
+    "recoverableMarginMillions": 16,
+    "nextMove": "Isolate change surfaces and shrink the retest burden each control update creates."
+  },
+  {
+    "lane": "Nonprofit and foundation ops",
+    "action": "ESCALATE",
+    "compositeRemediationScore": 52,
+    "owner": "Principal operator",
+    "recoverableMarginMillions": 8,
+    "nextMove": "Assign one named closer for each grant, outcome, and stewardship packet."
+  },
+  {
+    "lane": "Robotics and override operations",
+    "action": "AUTOMATE",
+    "compositeRemediationScore": 71,
+    "owner": "Principal operator",
+    "recoverableMarginMillions": 6,
+    "nextMove": "Collapse the operator views so one incident does not require three separate toolchains."
+  }
+]

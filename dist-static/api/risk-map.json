@@ -1,0 +1,74 @@
+[
+  {
+    "lane": "AI governance and agent controls",
+    "dimension": "DECISION_LATENCY",
+    "compositeRemediationScore": 54.6,
+    "recoverableMarginMillions": 17,
+    "frictionScore": 71,
+    "companyTags": [
+      "OpenAI",
+      "Anthropic",
+      "Microsoft"
+    ]
+  },
+  {
+    "lane": "Procurement and trust operations",
+    "dimension": "EVIDENCE_OVERHEAD",
+    "compositeRemediationScore": 48.6,
+    "recoverableMarginMillions": 14,
+    "frictionScore": 66,
+    "companyTags": [
+      "Vanta",
+      "Drata",
+      "Google"
+    ]
+  },
+  {
+    "lane": "Biotech and diagnostics operations",
+    "dimension": "HANDOFF_COMPLEXITY",
+    "compositeRemediationScore": 61.2,
+    "recoverableMarginMillions": 12,
+    "frictionScore": 74,
+    "companyTags": [
+      "Veeva",
+      "Thermo Fisher",
+      "LabVantage"
+    ]
+  },
+  {
+    "lane": "FinTech and treasury controls",
+    "dimension": "CHANGE_FRICTION",
+    "compositeRemediationScore": 60,
+    "recoverableMarginMillions": 16,
+    "frictionScore": 78,
+    "companyTags": [
+      "Stripe",
+      "Plaid",
+      "Power BI"
+    ]
+  },
+  {
+    "lane": "Nonprofit and foundation ops",
+    "dimension": "OWNERSHIP_AMBIGUITY",
+    "compositeRemediationScore": 52,
+    "recoverableMarginMillions": 8,
+    "frictionScore": 64,
+    "companyTags": [
+      "Salesforce",
+      "Blackbaud",
+      "Google"
+    ]
+  },
+  {
+    "lane": "Robotics and override operations",
+    "dimension": "TOOLING_FRAGMENTATION",
+    "compositeRemediationScore": 71,
+    "recoverableMarginMillions": 6,
+    "frictionScore": 83,
+    "companyTags": [
+      "NVIDIA",
+      "Boston Dynamics",
+      "AWS"
+    ]
+  }
+]

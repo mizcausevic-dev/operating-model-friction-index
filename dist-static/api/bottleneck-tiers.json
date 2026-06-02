@@ -1,0 +1,110 @@
+[
+  {
+    "lane": "AI governance and agent controls",
+    "frictionTier": "PRESSURED",
+    "dimension": "DECISION_LATENCY",
+    "riskHeadline": "Executive demand is outpacing approval capacity and creating avoidable delay.",
+    "frictionSignal": "Review cycles bunch up around the same policy, trust, and legal checkpoints.",
+    "blockingIssue": "Approvals still depend on too few shared reviewers and too many memo handoffs.",
+    "evidenceArtifacts": [
+      "agent readiness scorecard",
+      "board memo",
+      "governance packet"
+    ],
+    "frictionScore": 71,
+    "handoffLoadScore": 68,
+    "toolingSprawlScore": 39,
+    "decisionLatencyScore": 76,
+    "ownershipClarityScore": 81
+  },
+  {
+    "lane": "Procurement and trust operations",
+    "frictionTier": "PRESSURED",
+    "dimension": "EVIDENCE_OVERHEAD",
+    "riskHeadline": "The team is spending too much time repackaging evidence that should already be standardized.",
+    "frictionSignal": "Answer packs, proof attachments, and buyer narratives still fork by deal instead of sharing one operating source.",
+    "blockingIssue": "Evidence packaging standards are not yet consistent enough across trust, procurement, and diligence rooms.",
+    "evidenceArtifacts": [
+      "procurement-ready-os",
+      "security questionnaire studio",
+      "trust center evidence room"
+    ],
+    "frictionScore": 66,
+    "handoffLoadScore": 61,
+    "toolingSprawlScore": 42,
+    "decisionLatencyScore": 58,
+    "ownershipClarityScore": 84
+  },
+  {
+    "lane": "Biotech and diagnostics operations",
+    "frictionTier": "CONSTRAINED",
+    "dimension": "HANDOFF_COMPLEXITY",
+    "riskHeadline": "Regulated credibility is high, but execution still stalls between evidence creation and release-ready decisions.",
+    "frictionSignal": "Validation and quality evidence live in too many adjacent flows with too much manual reconciliation.",
+    "blockingIssue": "QA, CAPA, specimen, and GxP lanes still hand work across separate checkpoints instead of one narrower closure flow.",
+    "evidenceArtifacts": [
+      "assay release readiness",
+      "batch deviation CAPA ledger",
+      "gxp change control board"
+    ],
+    "frictionScore": 74,
+    "handoffLoadScore": 79,
+    "toolingSprawlScore": 47,
+    "decisionLatencyScore": 69,
+    "ownershipClarityScore": 63
+  },
+  {
+    "lane": "FinTech and treasury controls",
+    "frictionTier": "CONSTRAINED",
+    "dimension": "CHANGE_FRICTION",
+    "riskHeadline": "Commercial opportunity exists, but change overhead is still too high for confident scaling.",
+    "frictionSignal": "One control update still creates too many downstream review and coordination tasks.",
+    "blockingIssue": "Merchant, KYC, and treasury changes are not yet isolated enough to prevent repeated regression checks.",
+    "evidenceArtifacts": [
+      "payment reconciliation exception desk",
+      "treasury liquidity signal lab",
+      "merchant risk review console"
+    ],
+    "frictionScore": 78,
+    "handoffLoadScore": 65,
+    "toolingSprawlScore": 52,
+    "decisionLatencyScore": 63,
+    "ownershipClarityScore": 58
+  },
+  {
+    "lane": "Nonprofit and foundation ops",
+    "frictionTier": "PRESSURED",
+    "dimension": "OWNERSHIP_AMBIGUITY",
+    "riskHeadline": "Work is getting done, but too many decisions still depend on informal ownership rather than visible accountability.",
+    "frictionSignal": "Program proof, donor stewardship, and grant evidence still move through overlapping owners without one hard closer.",
+    "blockingIssue": "Too many adjacent workstreams share responsibility without a single final owner per packet.",
+    "evidenceArtifacts": [
+      "grant compliance evidence desk",
+      "program outcome proof ledger",
+      "donor stewardship ops console"
+    ],
+    "frictionScore": 64,
+    "handoffLoadScore": 59,
+    "toolingSprawlScore": 28,
+    "decisionLatencyScore": 57,
+    "ownershipClarityScore": 48
+  },
+  {
+    "lane": "Robotics and override operations",
+    "frictionTier": "BROKEN",
+    "dimension": "TOOLING_FRAGMENTATION",
+    "riskHeadline": "The lane is interesting, but the toolchain is still too fragmented to justify heavier operating investment.",
+    "frictionSignal": "One incident or override still forces operators to jump between too many views, logs, and narratives.",
+    "blockingIssue": "Fleet, sensor, and override flows are not yet consolidated enough to keep response work continuous.",
+    "evidenceArtifacts": [
+      "robot fleet exception board",
+      "sensor health drift monitor",
+      "human override readiness console"
+    ],
+    "frictionScore": 83,
+    "handoffLoadScore": 73,
+    "toolingSprawlScore": 86,
+    "decisionLatencyScore": 67,
+    "ownershipClarityScore": 54
+  }
+]

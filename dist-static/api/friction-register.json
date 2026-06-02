@@ -1,0 +1,68 @@
+[
+  {
+    "lane": "AI governance and agent controls",
+    "operatingCluster": "AI governance",
+    "frictionTier": "PRESSURED",
+    "action": "SIMPLIFY",
+    "owner": "Chief AI Officer",
+    "audience": "Board technology committee",
+    "frictionNarrative": "AI governance is high-value, but decision latency is the main tax on scaling it cleanly.",
+    "frictionScore": 71,
+    "nextMove": "Reduce approval depth for recurring policy patterns and assign one final owner per packet."
+  },
+  {
+    "lane": "Procurement and trust operations",
+    "operatingCluster": "Procurement / trust",
+    "frictionTier": "PRESSURED",
+    "action": "STANDARDIZE",
+    "owner": "Chief Commercial Officer",
+    "audience": "Board growth committee",
+    "frictionNarrative": "Procurement is scalable, but evidence overhead is the main source of wasted effort.",
+    "frictionScore": 66,
+    "nextMove": "Define one canonical answer-and-proof bundle so commercial teams stop rebuilding the same trust material."
+  },
+  {
+    "lane": "Biotech and diagnostics operations",
+    "operatingCluster": "Biotech / diagnostics",
+    "frictionTier": "CONSTRAINED",
+    "action": "AUTOMATE",
+    "owner": "Quality systems lead",
+    "audience": "Board compliance committee",
+    "frictionNarrative": "Biotech is credible, though its scaling drag lives in multi-owner handoff complexity.",
+    "frictionScore": 74,
+    "nextMove": "Create a thinner QA-to-release closure path with one owner and one summarized evidence packet."
+  },
+  {
+    "lane": "FinTech and treasury controls",
+    "operatingCluster": "FinTech",
+    "frictionTier": "CONSTRAINED",
+    "action": "CONTAIN",
+    "owner": "Chief Revenue Officer",
+    "audience": "Board finance committee",
+    "frictionNarrative": "FinTech has strong pull, though change friction keeps weakening execution reliability.",
+    "frictionScore": 78,
+    "nextMove": "Isolate change surfaces and shrink the retest burden each control update creates."
+  },
+  {
+    "lane": "Nonprofit and foundation ops",
+    "operatingCluster": "Nonprofit / foundation ops",
+    "frictionTier": "PRESSURED",
+    "action": "ESCALATE",
+    "owner": "Principal operator",
+    "audience": "Board strategy committee",
+    "frictionNarrative": "Nonprofit is portable, though its main drag is ownership ambiguity across related workstreams.",
+    "frictionScore": 64,
+    "nextMove": "Assign one named closer for each grant, outcome, and stewardship packet."
+  },
+  {
+    "lane": "Robotics and override operations",
+    "operatingCluster": "Robotics",
+    "frictionTier": "BROKEN",
+    "action": "AUTOMATE",
+    "owner": "Principal operator",
+    "audience": "Board innovation committee",
+    "frictionNarrative": "Robotics is strategically interesting, though tool fragmentation is still overwhelming the small proof set.",
+    "frictionScore": 83,
+    "nextMove": "Collapse the operator views so one incident does not require three separate toolchains."
+  }
+]

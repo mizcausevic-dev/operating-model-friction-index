@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bottleneck tiers · Kinetic Gain</title>
+    <meta name="description" content="Bottleneck-tier view showing which operating friction is strongest in each lane." />
+    <style>
+      :root { color-scheme: dark; --bg:#07111d; --panel:#0d1a2b; --border:rgba(103,224,190,.22); --text:#edf2ff; --muted:#9fb0cf; --accent:#67e0be; --accent-2:#7dc4ff; }
+      * { box-sizing:border-box; }
+      body { margin:0; font-family:"Segoe UI",system-ui,sans-serif; background:radial-gradient(circle at top left, rgba(125,196,255,.12), transparent 30%), linear-gradient(180deg,#050c16 0%,var(--bg) 100%); color:var(--text); }
+      a { color:var(--accent-2); text-decoration:none; }
+      .wrap { max-width:1180px; margin:0 auto; padding:32px 24px 64px; }
+      .hero,.section { background:linear-gradient(180deg, rgba(14,28,45,.95), rgba(10,19,33,.98)); border:1px solid var(--border); border-radius:28px; padding:28px; box-shadow:0 18px 60px rgba(2,7,16,.35); }
+      .hero { margin-bottom:24px; }
+      .eyebrow { display:inline-block; padding:10px 16px; border-radius:999px; border:1px solid var(--border); background:rgba(103,224,190,.08); color:var(--accent); font-size:12px; text-transform:uppercase; letter-spacing:.28em; }
+      h1,h2 { margin:18px 0 12px; font-family:Georgia,serif; line-height:.95; }
+      h1 { font-size:clamp(56px,8vw,92px); max-width:980px; }
+      h2 { font-size:clamp(36px,4vw,54px); }
+      .lede { color:var(--muted); font-size:20px; line-height:1.6; max-width:920px; }
+      .nav { display:flex; gap:10px; flex-wrap:wrap; margin-top:22px; }
+      .nav a { padding:10px 14px; border:1px solid rgba(125,196,255,.18); border-radius:999px; color:var(--muted); }
+      .nav a.active { color:var(--text); border-color:var(--accent); background:rgba(103,224,190,.08); }
+      .metrics,.grid { display:grid; gap:18px; }
+      .metrics { grid-template-columns:repeat(auto-fit, minmax(180px,1fr)); margin-top:26px; }
+      .metric,.card,.table-wrap { background:rgba(16,32,50,.76); border:1px solid rgba(125,196,255,.12); border-radius:22px; padding:18px; }
+      .metric-label,.chip { color:var(--accent); text-transform:uppercase; letter-spacing:.18em; font-size:12px; }
+      .metric-value { display:block; font-size:40px; font-weight:700; margin-top:10px; }
+      .metric-copy { margin-top:10px; color:var(--muted); line-height:1.5; }
+      .section { margin-top:24px; }
+      .grid { grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); }
+      .card h3 { margin:12px 0 10px; font-size:30px; line-height:1.05; }
+      .card p,li { color:var(--muted); line-height:1.6; }
+      .table-wrap { overflow-x:auto; }
+      table { width:100%; border-collapse:collapse; }
+      th,td { text-align:left; padding:12px; border-bottom:1px solid rgba(125,196,255,.12); vertical-align:top; }
+      th { color:var(--accent); font-size:12px; text-transform:uppercase; letter-spacing:.18em; }
+      ul { padding-left:20px; }
+      pre { white-space:pre-wrap; overflow-wrap:anywhere; color:var(--muted); background:rgba(7,17,29,.75); border:1px solid rgba(125,196,255,.12); border-radius:18px; padding:18px; }
+      .footer { margin-top:24px; color:var(--muted); font-size:14px; display:flex; gap:18px; flex-wrap:wrap; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero"><span class="eyebrow">Bottleneck tiers</span><h1>The real bottleneck stays visible: is it handoffs, tools, ownership, evidence overhead, or raw decision delay?</h1><p class="lede">This view keeps each lane tied to the dominant friction dimension so leadership can simplify the right thing first.</p><div class="nav"><a href="/">Overview</a><a href="/friction-register">Friction register</a><a class="active" href="/bottleneck-tiers">Bottleneck tiers</a><a href="/remediation-posture">Remediation posture</a><a href="/verification">Verification</a><a href="/docs">Docs</a></div></section><section class="section table-wrap"><table><thead><tr><th>Lane</th><th>Tier</th><th>Dimension</th><th>Risk headline</th><th>Friction signal</th><th>Blocking issue</th><th>Friction</th><th>Handoffs</th><th>Tools</th><th>Latency</th><th>Ownership</th></tr></thead><tbody><tr><td>AI governance and agent controls</td><td>PRESSURED</td><td>DECISION_LATENCY</td><td>Executive demand is outpacing approval capacity and creating avoidable delay.</td><td>Review cycles bunch up around the same policy, trust, and legal checkpoints.</td><td>Approvals still depend on too few shared reviewers and too many memo handoffs.</td><td>71</td><td>68</td><td>39</td><td>76</td><td>81</td></tr><tr><td>Procurement and trust operations</td><td>PRESSURED</td><td>EVIDENCE_OVERHEAD</td><td>The team is spending too much time repackaging evidence that should already be standardized.</td><td>Answer packs, proof attachments, and buyer narratives still fork by deal instead of sharing one operating source.</td><td>Evidence packaging standards are not yet consistent enough across trust, procurement, and diligence rooms.</td><td>66</td><td>61</td><td>42</td><td>58</td><td>84</td></tr><tr><td>Biotech and diagnostics operations</td><td>CONSTRAINED</td><td>HANDOFF_COMPLEXITY</td><td>Regulated credibility is high, but execution still stalls between evidence creation and release-ready decisions.</td><td>Validation and quality evidence live in too many adjacent flows with too much manual reconciliation.</td><td>QA, CAPA, specimen, and GxP lanes still hand work across separate checkpoints instead of one narrower closure flow.</td><td>74</td><td>79</td><td>47</td><td>69</td><td>63</td></tr><tr><td>FinTech and treasury controls</td><td>CONSTRAINED</td><td>CHANGE_FRICTION</td><td>Commercial opportunity exists, but change overhead is still too high for confident scaling.</td><td>One control update still creates too many downstream review and coordination tasks.</td><td>Merchant, KYC, and treasury changes are not yet isolated enough to prevent repeated regression checks.</td><td>78</td><td>65</td><td>52</td><td>63</td><td>58</td></tr><tr><td>Nonprofit and foundation ops</td><td>PRESSURED</td><td>OWNERSHIP_AMBIGUITY</td><td>Work is getting done, but too many decisions still depend on informal ownership rather than visible accountability.</td><td>Program proof, donor stewardship, and grant evidence still move through overlapping owners without one hard closer.</td><td>Too many adjacent workstreams share responsibility without a single final owner per packet.</td><td>64</td><td>59</td><td>28</td><td>57</td><td>48</td></tr><tr><td>Robotics and override operations</td><td>BROKEN</td><td>TOOLING_FRAGMENTATION</td><td>The lane is interesting, but the toolchain is still too fragmented to justify heavier operating investment.</td><td>One incident or override still forces operators to jump between too many views, logs, and narratives.</td><td>Fleet, sensor, and override flows are not yet consolidated enough to keep response work continuous.</td><td>83</td><td>73</td><td>86</td><td>67</td><td>54</td></tr></tbody></table></section>
+      <div class="footer">
+        <span>Operating Model Friction Index</span>
+        <a href="https://friction.kineticgain.com">friction.kineticgain.com</a>
+        <a href="https://github.com/mizcausevic-dev/">GitHub</a>
+        <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a>
+        <a href="https://kineticgain.com/">Kinetic Gain</a>
+      </div>
+    </div>
+  </body>
+</html>
