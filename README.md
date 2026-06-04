@@ -2,7 +2,7 @@
 
 Board-ready executive-intelligence surface for exposing operating-model friction, coordination drag, and decision overhead across the broader Kinetic Gain suite.
 
-- Live: `http://friction.kineticgain.com/`
+- Live: `https://friction.kineticgain.com/`
 - Repo: `mizcausevic-dev/operating-model-friction-index`
 
 ## Why this matters
